@@ -67,6 +67,28 @@ This mechanism allows MCM to:
 
 ---
 
+<!-- Side-by-side layout: text and illustration -->
+<table>
+<tr>
+<td width="60%">
+
+**Worked Examples of the Models**
+
+* [XXX-YYY]():</br>
+  [XXX-YYY].
+
+For a detailed step-by-step breakdown of the implementation process, see the [Implementation Series]().</br>
+Latest update: 2025-10-14.
+  
+</td>
+<td width="40%">
+  <img src="Supporting_Images/XXX" alt="Health + Data Illustration" width="300"/>
+</td>
+</tr>
+</table>
+
+---
+
 # Team
 
 The MCM is a series of research projects of the  
@@ -85,4 +107,4 @@ For any questions or interest in collaboration, please reach out to Nic at [n.ku
 
 [2]: [Kuo N.I-H., Gallego B., Jorm L.R. “Attention-Based Synthetic Data Generation for Calibration-Enhanced Survival Analysis.” *arXiv preprint arXiv:2503.06096* (2025). (To appear in JBI 2025 Special Issue)](https://arxiv.org/html/2503.06096v1)
 
-(Last edit: 2025-10-13)
+(Last edit: 2025-10-14)
