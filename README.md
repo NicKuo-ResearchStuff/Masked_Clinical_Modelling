@@ -82,7 +82,7 @@ Latest update: 2025-10-14.
   
 </td>
 <td width="40%">
-  <img src="Supporting_Images/XXX" alt="Health + Data Illustration" width="300"/>
+  <img src="Supporting_Images/WFig004_MCMWorked.png" alt="Health + Data Illustration" width="300"/>
 </td>
 </tr>
 </table>
