@@ -23,4 +23,8 @@ Here, we zoom in to the hands-on layer -- showing exactly how real survival tabl
 
 This is a walkthrough of the WHAS500 heart-attack survival cohort, where we show its data characteristics.
 
-(Last Edit: 2025-10-16)
+### [Implementation 02: Data 102: WHAS500: Classic Survival Analysis and Ground-Truth Validation](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation02)
+
+In this post, we replicate UCLA’s WHAS500 CoxPH results to verify that the dataset introduced in Implementation 01 is consistent and reliable.
+
+(Last Edit: 2025-10-17)
