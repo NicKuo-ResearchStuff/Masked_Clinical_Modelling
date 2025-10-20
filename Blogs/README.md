@@ -27,4 +27,8 @@ This is a walkthrough of the WHAS500 heart-attack survival cohort, where we show
 
 In this post, we replicate UCLA’s WHAS500 CoxPH results to verify that the dataset introduced in Implementation 01 is consistent and reliable.
 
-(Last Edit: 2025-10-17)
+### [Implementation 03: A Crash Course on Survival Modelling with CoxPH](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation03)
+
+This is a quick introduction to Cox Proportional Hazard (CoxPH) models, explaining how survival models handle time and censoring, and to interpret their hazard ratios.
+
+(Last Edit: 2025-10-20)
