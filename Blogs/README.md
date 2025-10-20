@@ -1,4 +1,4 @@
-# Health Gym Implementation Series
+# MCM Implementation Series
 
 <img src="Supporting_Images/WFig09_McmImplementationSeries.png" alt="Health + Data Illustration" width="300"/>
 
