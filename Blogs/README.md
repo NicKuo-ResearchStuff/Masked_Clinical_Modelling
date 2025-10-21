@@ -31,4 +31,8 @@ In this post, we replicate UCLA’s WHAS500 CoxPH results to verify that the dat
 
 This is a quick introduction to Cox Proportional Hazard (CoxPH) models, explaining how survival models handle time and censoring, and to interpret their hazard ratios.
 
-(Last Edit: 2025-10-20)
+### [Implementation 04: Hands-On CoxPH Modelling: From Data to Hazard Ratios](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation04)
+
+This is a practical walkthrough showing how to fit a Cox Proportional Hazards model with lifelines, extract hazard ratios, and plot confidence intervals.
+
+(Last Edit: 2025-10-21)
