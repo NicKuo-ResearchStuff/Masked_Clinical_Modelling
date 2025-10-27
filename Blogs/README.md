@@ -39,4 +39,8 @@ This is a practical walkthrough showing how to fit a Cox Proportional Hazards mo
 
 A conceptual bridge between BERT’s masked language modelling and MCM’s masked clinical modelling, showing how the same mask-and-reconstruct training loop teaches a model to infer missing clinical features from context.
 
-(Last Edit: 2025-10-27)
+### [Implementation 06: Inside the Attention + MLP Core of MCM](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation06)
+
+A quick walkthrough of how MCM’s Attention + MLP core reconstructs masked clinical features through contextual weighting and nonlinear prediction.
+
+(Last Edit: 2025-10-28)
