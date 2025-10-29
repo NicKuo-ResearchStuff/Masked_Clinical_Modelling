@@ -1,4 +1,4 @@
-# Health Gym v3: Pre- and Post-Processing for MCM
+Pre- and Post-Processing for MCM
 
 <img src="Supporting_Images/WFig15_PrePostProcessing.png" width="600"/>
 
