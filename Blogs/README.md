@@ -43,4 +43,8 @@ A conceptual bridge between BERT’s masked language modelling and MCM’s maske
 
 A quick walkthrough of how MCM’s Attention + MLP core reconstructs masked clinical features through contextual weighting and nonlinear prediction.
 
-(Last Edit: 2025-10-28)
+### [Implementation 07: Pre- and Post-Processing for MCM](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation07)
+
+A hands-on walkthrough on the necessary preparations before and after the modelling steps.
+
+(Last Edit: 2025-10-29)
