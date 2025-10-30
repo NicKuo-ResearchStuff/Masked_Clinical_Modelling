@@ -47,4 +47,8 @@ A quick walkthrough of how MCM’s Attention + MLP core reconstructs masked clin
 
 A hands-on walkthrough on the necessary preparations before and after the modelling steps.
 
-(Last Edit: 2025-10-29)
+### [Implementation 08: Using a Pre-Trained MCM to Generate Synthetic Data](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation08)
+
+A demonstration showing how a pre-trained MCM model generates synthetic clinical data by masking, reconstructing, and conditionally augmenting real patient records.
+
+(Last Edit: 2025-10-30)
