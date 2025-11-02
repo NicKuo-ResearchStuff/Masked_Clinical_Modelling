@@ -103,7 +103,7 @@ Latest update: 2025-11-03.
 
 </td>
 <td width="40%">
-  <img src="Supporting_Images/WFig005_MCMDatasets.png" alt="Datasets Overview" width="300"/>
+  <img src="Supporting_Images/WFig18_MCM_SanityBlogs.png" alt="Datasets Overview" width="300"/>
 </td>
 </tr>
 </table>
