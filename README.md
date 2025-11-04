@@ -97,9 +97,10 @@ Latest update: 2025-10-31.
 
 MCM tutorials use open, well-documented survival datasets so students can replicate every step without access to restricted data.
 
-* WHAS500 (Heart Attack Study): see [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation02).
+* WHAS500: see [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation02).
+* GBSG2: see [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Y_Implementation/Blog_HrConfirmation_GBSG2).
 
-Latest update: 2025-11-03.
+Latest update: 2025-11-04.
 
 </td>
 <td width="40%">
@@ -127,4 +128,4 @@ For any questions or interest in collaboration, please reach out to Nic at [n.ku
 
 [2]: [Kuo N.I-H., Gallego B., Jorm L.R. “Attention-Based Synthetic Data Generation for Calibration-Enhanced Survival Analysis.” *arXiv preprint arXiv:2503.06096* (2025). (To appear in JBI 2025 Special Issue)](https://arxiv.org/html/2503.06096v1)
 
-(Last edit: 2025-10-31)
+(Last edit: 2025-11-04)
