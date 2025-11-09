@@ -75,7 +75,9 @@ This mechanism allows MCM to:
 **Worked Examples of the Models**
 
 * [MCM: A First Look at Survival-Aware Synthetic Data](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs0a1_HandsOn(MedInfoPaper)):</br>
-  A high-level walkthrough of MCM, showing how masked learning reconstructs survival data to generate realistic, hazard-consistent synthetic cohorts..
+  A high-level walkthrough of MCM, showing how masked learning reconstructs survival data to generate realistic, hazard-consistent synthetic cohorts.
+* [Attention-Based Synthetic Data Generation for Calibration-Enhanced Survival Analysis](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs0a2_HandsOn(JBIPaper)):</br>
+  Extends the MCM method to augment survival datasets, enhancing calibration and equity in clinical prediction.
 
 For a detailed step-by-step breakdown of the implementation process, see the [Implementation Series](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs).</br>
 Latest update: 2025-10-31.
