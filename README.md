@@ -80,7 +80,7 @@ This mechanism allows MCM to:
   Extends the MCM method to augment survival datasets, enhancing calibration and equity in clinical prediction.
 
 For a detailed step-by-step breakdown of the implementation process, see the [Implementation Series](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs).</br>
-Latest update: 2025-10-31.
+Latest update: 2025-11-10.
   
 </td>
 <td width="40%">
