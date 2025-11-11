@@ -103,8 +103,9 @@ MCM tutorials use open, well-documented survival datasets so students can replic
 * GBSG2: see [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Y_Implementation/Blog_HrConfirmation_GBSG2).
 * ACTG320: see [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Y_Implementation/Blog_HrConfirmation_ACTG320).
 * FLChain: see [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Y_Implementation/Blog_HrConfirmation_FLChain).
+* CKD EMR ([Al-Shamsi et al. (2018)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0199920)): see [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Y_Implementation/Blog_HrConfirmation_CkdEmr).
 
-Latest update: 2025-11-07.
+Latest update: 2025-11-12.
 
 </td>
 <td width="40%">
@@ -131,4 +132,4 @@ For any questions or interest in collaboration, please reach out to Nic at [n.ku
 [1]: [Kuo N.I-H., Gallego B., Jorm L.R. “Masked Clinical Modelling: A Framework for Synthetic and Augmented Survival Data Generation.” *MEDINFO 2025* (IOS Press).](https://ebooks.iospress.nl/doi/10.3233/SHTI250917)</br>
 [2]: [Kuo N.I-H., Gallego B., & Jorm L.R. "Attention-Based Synthetic Data Generation for Calibration-Enhanced Survival Analysis: A Case Study for Chronic Kidney Disease Using Electronic Health Records." *Journal of Biomedical Informatics (Special Issue: Data Generation in Healthcare Environments)*](https://www.sciencedirect.com/science/article/pii/S1532046425001571)
 
-(Last edit: 2025-11-11)
+(Last edit: 2025-11-12)
