@@ -51,7 +51,7 @@ A hands-on walkthrough on the necessary preparations before and after the modell
 
 A demonstration showing how a pre-trained MCM model generates synthetic clinical data by masking, reconstructing, and conditionally augmenting real patient records.
 
-### [Implementation 09: Using a Pre-Trained MCM to Generate Synthetic Data](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation09)
+### [Implementation 09: Evaluating Synthetic Data from MCM](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_Z_Implementation/Implementation09)
 
 A walkthrough of how MCM-generated synthetic data are evaluated for statistical realism and clinical utility.
 
