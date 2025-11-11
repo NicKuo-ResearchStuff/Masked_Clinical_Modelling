@@ -131,4 +131,4 @@ For any questions or interest in collaboration, please reach out to Nic at [n.ku
 [1]: [Kuo N.I-H., Gallego B., Jorm L.R. “Masked Clinical Modelling: A Framework for Synthetic and Augmented Survival Data Generation.” *MEDINFO 2025* (IOS Press).](https://ebooks.iospress.nl/doi/10.3233/SHTI250917)</br>
 [2]: [Kuo N.I-H., Gallego B., & Jorm L.R. "Attention-Based Synthetic Data Generation for Calibration-Enhanced Survival Analysis: A Case Study for Chronic Kidney Disease Using Electronic Health Records." *Journal of Biomedical Informatics (Special Issue: Data Generation in Healthcare Environments)*](https://www.sciencedirect.com/science/article/pii/S1532046425001571)
 
-(Last edit: 2025-11-10)
+(Last edit: 2025-11-11)
