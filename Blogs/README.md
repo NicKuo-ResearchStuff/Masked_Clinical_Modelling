@@ -55,4 +55,8 @@ A demonstration showing how a pre-trained MCM model generates synthetic clinical
 
 A walkthrough of how MCM-generated synthetic data are evaluated for statistical realism and clinical utility.
 
-(Last Edit: 2025-10-31)
+### [MCM + CKD Part 1: From Kaggle CSV to MCM-Ready EMR Table](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB001_Part01)
+
+A step-by-step walkthrough of how we transform a raw CKD baseline dataset into a clean, clinically structured, Box–Cox-stabilised, MCM-ready tensor for masked learning.
+
+(Last Edit: 2025-11-13)
