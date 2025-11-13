@@ -1,64 +1,57 @@
 # MCM + CKD Part 2: Does Synthetic CKD Data Behave Like the Real Thing?
 
-<img src="Supporting_Images/WFig_MCM_CKD_Part2Header.png" width="600"/>
+<img src="Supporting_Images/WFig18_AlShamsiCkdEmr_B001P02_Fig01.png" width="600"/>
 
 Hey, hello, and Kia Ora!
 
-In Part 1, we transformed the Kaggle CKD EMR extract into an MCM-ready tensor, with semantically labelled variables, Box–Cox-stabilised continuous features, and coherent [0,1] scaling.
+In Part 1, we analysed how we conducted data transformation in our MCM for CKD code of [B001](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/blob/main/Blogs/Blogs0a2_HandsOn(JBIPaper)/2025-11-10_(2025_08_16)_B001_MCM_CkdEhr_JbiSpecialIssue.ipynb).
 
-Now we move to the natural next question:
-
-> After generating synthetic CKD baselines with MCM, do they look, correlate, and behave like the real cohort?
+Now we move to the natural next question:</br>
+*After generating synthetic CKD baselines with MCM, do they look, correlate, and behave like the real cohort?*
 
 This post focuses on validation, not modelling:
-we examinerealismandutilitythrough distributional fidelity, correlation structure, Kaplan–Meier survival profiles, and Cox proportional hazards.
+we examine realism and utility through distributional fidelity, correlation structure, Kaplan–Meier survival profiles, and Cox proportional hazards.
 
 ---
 
 # What We’ll Cover in Part 2
 
-1. Distributional realism
+1. Distributional realism</br>
 Using KDEs and side-by-side bar plots for all demographic, clinical, history, medication, and outcome variables.
-
-2. Bivariate structure
+2. Bivariate structure</br>
 Are correlations between renal biomarkers, comorbidities, and medications preserved?
-
-3. Temporal fidelity
+3. Temporal fidelity</br>
 Do survival curves from synthetic data match real CKD progression?
-
-4. Hazard-ratio fidelity
+4. Hazard-ratio fidelity</br>
 Do CoxPH models trained on synthetic data reproduce clinically meaningful associations?
 
-The goal is simple:
-determine whether MCM produces synthetic CKD records that can support downstream survival modelling.
+The code to generate all results below can be found [here](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/blob/main/Blogs/Blogs0a2_HandsOn(JBIPaper)/2025-11-10_(2025_08_16)_B001_MCM_CkdEhr_JbiSpecialIssue.ipynb).
 
 ---
 
 # 1. Realism Check (Univariate Fidelity)
 
-We start with 21 clinical variables.
+We start with 21 clinical variables.</br>
 Using the `variable_mapping` structure, we generate 21 subplots:
 
 Numeric variables → KDE plots (gold = real, grey = synthetic)
 Binary variables → side-by-side barplots
 
-<img src="Supporting_Images/WFig_CKD_Part2_DistPanel.png" width="800"/>
+<img src="https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/blob/main/Blogs/Blogs0a2_HandsOn(JBIPaper)/Supporting_Images/WFig_ZFig_Dist01_MCM.png" width="800"/></br>
 
 Across all variables, the alignment is close:
 
-Balanced binaries (e.g., sex, obesity history) match almost exactly.
-Imbalanced binaries (e.g., smoking, CKD events) are preserved despite class imbalance.
-Numeric variables show excellent shape capture:
+Balanced binaries (*e.g.,* sex, obesity history) match almost exactly.</br>
+Imbalanced binaries (*e.g.,* smoking, CKD events) are preserved despite class imbalance.</br>
+Numeric variables show excellent shape capture:</br>
+- bell-shaped cholesterol
+- wide SBP/DBP spread
+- near-linear age distribution
+- long left-skewed time-to-event durations
 
-  bell-shaped cholesterol
-  wide SBP/DBP spread
-  near-linear age distribution
-  long left-skewed time-to-event durations
 Minor negative values in KDE tails arise from smoothing, not from the data itself.
 
 This confirms that MCM preserves marginal distributions across all variable types.
-
-Extended comparisons against VAE-, WGAN-, and CK4Gen-generated cohorts are available in Supplementary Section F.1 of the paper.
 
 ---
 
@@ -66,27 +59,25 @@ Extended comparisons against VAE-, WGAN-, and CK4Gen-generated cohorts are avail
 
 Next, we compute and visualise correlation matrices for real and synthetic datasets:
 
-<img src="Supporting_Images/WFig_CKD_Part2_CorrPanel.png" width="800"/>
+<img src="Supporting_Images/WFig_ZFig_Corr_MCM.png" width="800"/>
 
 The structure remains highly consistent:
 
 Strong negative associations such as
+- eGFR ↔ Creatinine
 
-  eGFR ↔ Creatinine
-    are preserved.
+are preserved.
 
 Comorbidity clusters, like
+- Hypertension ↔ HTN medication
+- Diabetes ↔ DM medication
 
-  Hypertension ↔ HTN medication
-  Diabetes ↔ DM medication
-    remain intact.
+remain intact.
 
 This suggests that MCM reconstructs inter-variable relationships, not just univariate shapes.
 
-Correlation fidelity is crucial:
+Correlation fidelity is crucial:</br>
 without it, survival models trained on synthetic data would misrepresent risk structure.
-
-Extended correlation comparisons appear in Supplementary Section F.2.
 
 ---
 
@@ -94,19 +85,17 @@ Extended correlation comparisons appear in Supplementary Section F.2.
 
 We then compare survival trajectories derived from real versus synthetic CKD EMRs:
 
-<img src="Supporting_Images/WFig_CKD_Part2_KMpanel.png" width="800"/>
+<img src="Supporting_Images/WFig_ZFig_KM_MCM.png" width="800"/>
 
 The KM curves reflect:
-
-Final survival level
-Slope / event rate dynamics
-Interval-specific variability
+- Final survival level
+- Slope / event rate dynamics
+- Interval-specific variability
 
 All three characteristics are reproduced in synthetic data:
-
-The long-term survival probability matches closely.
-The drop-off pattern (representing CKD progression) is nearly identical.
-Confidence intervals overlap without divergence.
+- The long-term survival probability matches closely.
+- The drop-off pattern (representing CKD progression) is nearly identical.
+- Confidence intervals overlap without divergence.
 
 This shows that MCM preserves the temporal structure of CKD progression.
 
@@ -115,47 +104,27 @@ This shows that MCM preserves the temporal structure of CKD progression.
 # 4. CoxPH Utility Check (Hazard-Ratio Consistency)
 
 Finally, we fit Cox proportional hazards models on:
-
-the real CKD cohort, and
-the synthetic cohort generated by MCM.
+- the real CKD cohort, and
+- the synthetic cohort generated by MCM.
 
 We compare hazard ratios and 95% CIs:
 
-<img src="Supporting_Images/WFig_CKD_Part2_HRpanel.png" width="800"/>
+<img src="https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/blob/main/Blogs/Blogs0a2_HandsOn(JBIPaper)/Supporting_Images/WFig_ZFig_HrConsistency01_MCM.png" width="800"/>
 
 Findings:
-
-Effect directions remain consistent across datasets.
-Effect magnitudes (HRs) align closely.
-Important variables (age, eGFR, diabetes status) retain their expected associations with CKD progression.
-Confidence intervals show concordant patterns of uncertainty.
+- Effect directions remain consistent across datasets.
+- Effect magnitudes (HRs) align closely.
+- Important variables (age, eGFR, diabetes status) retain their expected associations with CKD progression.
+- Confidence intervals show concordant patterns of uncertainty.
 
 This is the strongest indicator that MCM-generated CKD data maintain clinical utility.
-
-Comparisons to other generative models (VAE, WGAN, CK4Gen) are presented in Supplementary Section F.3.
-
----
-
-# Takeaway
-
-Across realism (marginals + correlations) and utility (KM + CoxPH):
-
-> MCM produces synthetic CKD records that look real, correlate like real data, and behave like real patients in survival analysis.
-
-This demonstrates that:
-
-synthetic CKD EMRs generated via MCM are suitable for calibration experiments,
-can augment minority subgroups to improve equity, and
-preserve temporal risk structure essential for survival modelling.
 
 ---
 
 # What’s Next
 
-In the next post, we will:
-
-explore conditional synthetic augmentation, and
-test how targeted generation for sparse subgroups (older adults, diabetics, low-eGFR strata) improves calibration and subgroup robustness.
+In the next post, we will:</br>
+review how superficial marginal distribution realisms are.
 
 Cheers,</br>
 \- Nic
