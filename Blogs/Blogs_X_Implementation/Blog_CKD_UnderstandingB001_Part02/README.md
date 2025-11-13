@@ -4,7 +4,7 @@
 
 Hey, hello, and Kia Ora!
 
-In Part 1, we analysed how we conducted data transformation in our MCM for CKD code of [B001](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/blob/main/Blogs/Blogs0a2_HandsOn(JBIPaper)/2025-11-10_(2025_08_16)_B001_MCM_CkdEhr_JbiSpecialIssue.ipynb).
+In [Part 1](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB001_Part01), we analysed how we conducted data transformation in our MCM for CKD code of [B001](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/blob/main/Blogs/Blogs0a2_HandsOn(JBIPaper)/2025-11-10_(2025_08_16)_B001_MCM_CkdEhr_JbiSpecialIssue.ipynb).
 
 Now we move to the natural next question:</br>
 *After generating synthetic CKD baselines with MCM, do they look, correlate, and behave like the real cohort?*
