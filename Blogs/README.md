@@ -59,4 +59,8 @@ A walkthrough of how MCM-generated synthetic data are evaluated for statistical 
 
 A step-by-step walkthrough of how we transform a raw CKD baseline dataset into a clean, clinically structured, Box–Cox-stabilised, MCM-ready tensor for masked learning.
 
-(Last Edit: 2025-11-13)
+### [MCM + CKD Part 2: Does Synthetic CKD Data Behave Like the Real Thing?](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/blob/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB001_Part02)
+
+A set of validations showing that MCM-generated synthetic CKD baselines closely match real data in distributions, correlations, survival curves, and CoxPH hazard ratios.
+
+(Last Edit: 2025-11-14)
