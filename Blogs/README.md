@@ -63,4 +63,8 @@ A step-by-step walkthrough of how we transform a raw CKD baseline dataset into a
 
 A set of validations showing that MCM-generated synthetic CKD baselines closely match real data in distributions, correlations, survival curves, and CoxPH hazard ratios.
 
-(Last Edit: 2025-11-14)
+### [MCM + CKD — Baseline Augmentation Overview: How Well Do Classical Oversampling Methods Improve Calibration?](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part01)
+
+We outline the code that we used to benchmark classical oversampling approaches for CKD subgroup augmentation to test how far they can push CoxPH calibration -- before bringing MCM into the picture.
+
+(Last Edit: 2025-11-17)
