@@ -67,4 +67,8 @@ A set of validations showing that MCM-generated synthetic CKD baselines closely 
 
 We outline the code that we used to benchmark classical oversampling approaches for CKD subgroup augmentation to test how far they can push CoxPH calibration -- before bringing MCM into the picture.
 
-(Last Edit: 2025-11-17)
+### [MCM + CKD B002 — Part 1: Stratifying the CKD Cohort for Calibration](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part02)
+
+This blog explains how we turn raw CKD EMR variables into clinically meaningful binary subgroup flags.
+
+(Last Edit: 2025-11-18)
