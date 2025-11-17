@@ -1,4 +1,4 @@
-# MCM + CKD — Baseline Augmentation Overview: How Well Do Classical Oversampling Methods Improve Calibration?
+# MCM + CKD — Baseline Augmentation Overview:</br> How Well Do Classical Oversampling Methods Improve Calibration?
 
 <img src="Supporting_Images/WFig18_AlShamsiCkdEmr_B002P01_Fig01.png" width="600"/>
 
