@@ -71,4 +71,8 @@ We outline the code that we used to benchmark classical oversampling approaches 
 
 This blog explains how we turn raw CKD EMR variables into clinically meaningful binary subgroup flags.
 
-(Last Edit: 2025-11-18)
+### [MCM + CKD B002 — Part 2: Building the 5×2 Fold-Swap CoxPH Engine](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part03)
+
+A leak-free 5×2 fold-swap CoxPH engine that generates fully out-of-sample risk predictions for baseline CKD calibration.
+
+(Last Edit: 2025-11-19)
