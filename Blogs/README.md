@@ -79,4 +79,8 @@ A leak-free 5×2 fold-swap CoxPH engine that generates fully out-of-sample risk 
 
 A concise walkthrough of how B002 generates balanced synthetic CKD subcohorts using classical oversampling methods to benchmark calibration improvements before comparing against MCM augmentation.
 
-(Last Edit: 2025-11-20)
+### [MCM + CKD B002 — Part 4: Training Cox Models on Augmented Subgroups](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part05)
+
+A walkthrough of how B002 trains leak-free Cox models on synthetic subgroup–augmented datasets using the same 5×2 fold-swap engine to fairly evaluate calibration improvements.
+
+(Last Edit: 2025-11-21)
