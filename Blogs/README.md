@@ -75,4 +75,8 @@ This blog explains how we turn raw CKD EMR variables into clinically meaningful 
 
 A leak-free 5×2 fold-swap CoxPH engine that generates fully out-of-sample risk predictions for baseline CKD calibration.
 
-(Last Edit: 2025-11-19)
+### [MCM + CKD B002 — Part 3: Generating Classical Synthetic CKD Subcohorts](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part04)
+
+A concise walkthrough of how B002 generates balanced synthetic CKD subcohorts using classical oversampling methods to benchmark calibration improvements before comparing against MCM augmentation.
+
+(Last Edit: 2025-11-20)
