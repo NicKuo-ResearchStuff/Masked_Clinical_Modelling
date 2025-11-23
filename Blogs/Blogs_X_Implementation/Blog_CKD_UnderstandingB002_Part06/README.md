@@ -1,4 +1,4 @@
-# MCM + CKD B002 — Part pre-5.1:</br> Understanding Calibration Before We Measure It
+# MCM + CKD B002 — Part pre-5:</br> Understanding Calibration Before We Measure It
 
 <img src="Supporting_Images/WFig18_AlShamsiCkdEmr_B002P06_Fig01.png" width="600"/>
 
