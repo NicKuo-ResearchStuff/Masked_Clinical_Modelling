@@ -83,4 +83,8 @@ A concise walkthrough of how B002 generates balanced synthetic CKD subcohorts us
 
 A walkthrough of how B002 trains leak-free Cox models on synthetic subgroup–augmented datasets using the same 5×2 fold-swap engine to fairly evaluate calibration improvements.
 
-(Last Edit: 2025-11-21)
+### [MCM + CKD B002 — Part pre-5: Understanding Calibration Before We Measure It](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part06)
+
+A ML-friendly post that explains what calibration means in survival analysis, how CoxPH produces predicted risks.
+
+(Last Edit: 2025-11-24)
