@@ -80,7 +80,7 @@ This mechanism allows MCM to:
   Extends the MCM method to augment survival datasets, enhancing calibration and equity in clinical prediction.
 
 For a detailed step-by-step breakdown of the implementation process, see the [Implementation Series](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs).</br>
-Latest update: 2025-11-21.
+Latest update: 2025-11-24.
   
 </td>
 <td width="40%">
@@ -132,4 +132,4 @@ For any questions or interest in collaboration, please reach out to Nic at [n.ku
 [1]: [Kuo N.I-H., Gallego B., Jorm L.R. “Masked Clinical Modelling: A Framework for Synthetic and Augmented Survival Data Generation.” *MEDINFO 2025* (IOS Press).](https://ebooks.iospress.nl/doi/10.3233/SHTI250917)</br>
 [2]: [Kuo N.I-H., Gallego B., & Jorm L.R. "Attention-Based Synthetic Data Generation for Calibration-Enhanced Survival Analysis: A Case Study for Chronic Kidney Disease Using Electronic Health Records." *Journal of Biomedical Informatics (Special Issue: Data Generation in Healthcare Environments)*](https://www.sciencedirect.com/science/article/pii/S1532046425001571)
 
-(Last edit: 2025-11-21)
+(Last edit: 2025-11-24)
