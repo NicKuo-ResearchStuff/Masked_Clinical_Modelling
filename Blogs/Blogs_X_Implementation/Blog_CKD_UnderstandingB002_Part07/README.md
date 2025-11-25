@@ -15,7 +15,7 @@ This class does three things:
 
 ---
 
-# 1. Why Do We Need `EvalSurv`?
+## 1. Why Do We Need `EvalSurv`?
 
 In the B002 workflow, every CoxPH model is trained using fold-swap cross-fitting:
 * 5 folds × 2 swaps
@@ -39,7 +39,7 @@ So we rebuild $S_0(t)$ manually, straight from data.
 
 ---
 
-# 2. Key Idea: LPH → Relative Hazard → Survival → Risk
+## 2. Key Idea: LPH → Relative Hazard → Survival → Risk
 
 When the class is instantiated:
 
@@ -67,7 +67,7 @@ LPH
 
 ---
 
-# 3. Reconstructing Baseline Survival (Breslow Estimator)
+## 3. Reconstructing Baseline Survival (Breslow Estimator)
 
 `compute_baseline_survival()` reproduces the Breslow estimator for baseline survival:
 
@@ -115,7 +115,7 @@ Now we have the full baseline survival curve.
 
 ---
 
-# 4. Individual Survival and Risk
+## 4. Individual Survival and Risk
 
 Once baseline survival exists, everything else is simple and matches the formulas in Part pre-5:
 
@@ -142,7 +142,7 @@ Thus:
 
 ---
 
-# 5. Summary Diagram
+## 5. Summary Diagram
 
 ```
           ┌────────────────────┐
