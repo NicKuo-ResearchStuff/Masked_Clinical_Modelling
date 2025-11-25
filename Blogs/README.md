@@ -87,4 +87,8 @@ A walkthrough of how B002 trains leak-free Cox models on synthetic subgroup–au
 
 A ML-friendly post that explains what calibration means in survival analysis, how CoxPH produces predicted risks.
 
-(Last Edit: 2025-11-24)
+### [MCM + CKD B002 — Part 5.1: Deriving the Risk Score with EvalSurv](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part07)
+
+Explaininh how `EvalSurv` rebuilds baseline survival, individual survival, and predicted risk from LPH so that we can compute calibration.
+
+(Last Edit: 2025-11-25)
