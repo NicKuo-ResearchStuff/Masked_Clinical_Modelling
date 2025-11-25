@@ -91,4 +91,8 @@ A ML-friendly post that explains what calibration means in survival analysis, ho
 
 Explaininh how `EvalSurv` rebuilds baseline survival, individual survival, and predicted risk from LPH so that we can compute calibration.
 
-(Last Edit: 2025-11-25)
+### [MCM + CKD B002 — Part 5.2: Using analyse_now for the 5x2 Cross-Validated Calibration Scores](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part08)
+
+The analyze_now function converts out-of-sample LPH into subgroup-specific calibration metrics by rebuilding risks with EvalSurv at key time horizons.
+ 
+(Last Edit: 2025-11-26)
