@@ -94,5 +94,9 @@ Explaininh how `EvalSurv` rebuilds baseline survival, individual survival, and p
 ### [MCM + CKD B002 — Part 5.2: Using analyse_now for the 5x2 Cross-Validated Calibration Scores](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part08)
 
 The analyze_now function converts out-of-sample LPH into subgroup-specific calibration metrics by rebuilding risks with EvalSurv at key time horizons.
- 
-(Last Edit: 2025-11-26)
+
+### [MCM + CKD B002 — Part 5.3: From One Prediction to Many — Calibration Under Synthetic Augmentation](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB002_Part09)
+
+This post explains how to extends the vanilla calibration engine to independently generated synthetic cohorts to produce mean ± SD calibration metrics.
+
+(Last Edit: 2025-11-28)
