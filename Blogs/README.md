@@ -99,4 +99,8 @@ The analyze_now function converts out-of-sample LPH into subgroup-specific calib
 
 This post explains how to extends the vanilla calibration engine to independently generated synthetic cohorts to produce mean ± SD calibration metrics.
 
-(Last Edit: 2025-11-28)
+### [MCM + CKD — B003 Overview: Same Calibration Engine but Now with MCM Augmentation](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB003_Part01)
+
+A step-by-step flow diagram showing how B003 mirrors the entire B002 calibration pipeline, with the sole difference that classical oversampling is replaced by MCM-generated synthetic subcohorts.
+
+(Last Edit: 2025-12-01)
