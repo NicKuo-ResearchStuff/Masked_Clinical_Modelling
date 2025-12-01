@@ -103,4 +103,8 @@ This post explains how to extends the vanilla calibration engine to independentl
 
 A step-by-step flow diagram showing how B003 mirrors the entire B002 calibration pipeline, with the sole difference that classical oversampling is replaced by MCM-generated synthetic subcohorts.
 
-(Last Edit: 2025-12-01)
+### [MCM + CKD: Assessing Calibration Results](https://github.com/NicKuo-ResearchStuff/Masked_Clinical_Modelling/tree/main/Blogs/Blogs_X_Implementation/Blog_CKD_UnderstandingB004_Fin)
+
+A focused deep-dive showing how classical oversampling may worsens calibration in a CKD subgroup, while MCM-generated synthetic data consistently repairs it -- improving both model accuracy and equity.
+
+(Last Edit: 2025-12-02)
